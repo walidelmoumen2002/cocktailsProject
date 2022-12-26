@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f1f5f8;
+}
+.loading{
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.cocktails{
+  display: grid;
+  column-gap: 50 px;
+  row-gap: 50px;  
+  grid-template-columns: repeat(3,1fr)
+}
+.card{
+  background-color: white;
+  max-width: fit-content;
+  height: auto;
+  text-align: start;
+  border-radius: 15px;
+  box-shadow:  4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.description{
+text-align: start;
+margin: 20px;
+}
+.title{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+.glass{
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+}
+.info{
+  font-size: 1.5rem;
+  color: #b6b9ba;
+}
+
+.cocktailimg{
+  height: auto;
+  width:  400px;
+  border-top-left-radius:10px ;
+}
+.search{
+  width: fit-content;
+  text-align: center;
+  padding: 40px 50px;
+  margin: 50px;
+  background-color: white;
+  box-shadow:  4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.search_title{
+  color: #476a2e;
+  letter-spacing: 0.45em;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.search_input{
+  border: none;
+  background-color: #f1f5f8;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+}

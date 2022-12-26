@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Cocktail = ({ id, name, image, info, glass }) => {
+const Cocktail = ({ strDrink, strDrinkThumb, strAlcoholic, strGlass }) => {
   return (
     <article className='card'>
-      <img src={image} alt={name} className='cocktailimg' />
+      <img src={strDrinkThumb} alt={strDrink} className='cocktailimg' />
       <div className='description'>
-        <p className='title'>{name}</p>
-        <p className='glass'>{glass}</p>
-        <p className='info'>{info}</p>
+        <p className='title'>{strDrink}</p>
+        <p className='glass'>{strGlass}</p>
+        <p className='info'>{strAlcoholic}</p>
       </div>
 
     </article>
